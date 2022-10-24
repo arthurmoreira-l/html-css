@@ -1,0 +1,20 @@
+@charset "pt-br";
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+font-family: work;
+    font-size:16vh ;
+/*
+medidas absolutas:
+cm,mm,in,px,pt,pc
+
+medidas relativas:
+em,ex,rem,vw,vh,%
+16 px geralmete é igual a 1em
+*/
+/*
+shorthand
+font: font style, font-weight, font-size, font-family
+*/
+}

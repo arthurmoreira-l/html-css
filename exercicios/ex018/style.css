@@ -1,0 +1,41 @@
+@font-face {
+    font-family:'gothic' ;
+    src: url(../ex016/fonts/Cristone.ttf) format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #E09818,#F7BA0F);
+}
+
+h2{
+font-family:'lato', sans-serif;
+font-size: 20px;
+}
+p{
+    background-color: orange;
+    width: 200px;
+    height: 30px;
+    border-radius:10px;
+    text-align: center;
+    margin: auto;
+}
+.receitas:hover{
+    color: green;
+}
+.receitas:active{
+    color: brown;
+}
+.receitas:visited{
+    color: violet;
+}
+.receitas::after{
+    content: "[link]";
+}
+main{
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    margin: auto;
+}

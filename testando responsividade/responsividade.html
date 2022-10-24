@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando responsividade</title>
+</head>
+<style>
+  :root{
+    --cinza:grey;
+    --branco:white;
+}
+    body{
+        background-color:var(--cinza) ;
+    }
+    main{
+        background-color: var(--branco);
+        padding: 20px;
+        border-radius: 10px;
+        margin: auto;
+        min-width: 300px;
+        max-width:600px;
+    }
+    img{
+        width: 100%;
+    }
+</style>
+<body>
+    <main>
+        <h1>testando responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit optio, excepturi explicabo eum facere veritatis iure facilis praesentium dolorem saepe nostrum inventore sequi, veniam voluptate consequatur illo recusandae mollitia sunt!</p>
+        <picture>
+            <source media="(max-width:600px)" srcset="../desafios/desafio3/imagens/irina-blok-pq.jpg" type="image/jpeg">
+            <source media="(max-width:800px)" srcset="../desafios/desafio3/imagens/irina-blok.jpg" type="image/jpeg">
+            <img src="../desafios/desafio3/imagens/irina-blok-ipad.jpg" alt="">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit optio, excepturi explicabo eum facere veritatis iure facilis praesentium dolorem saepe nostrum inventore sequi, veniam voluptate consequatur illo recusandae mollitia sunt!</p>
+    </main>
+</body>
+</html>

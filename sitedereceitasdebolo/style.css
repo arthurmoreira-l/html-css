@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap');
+
+@font-face {
+    font-family: 'chocolate';
+    src: url('fontes/Chocolate\ Bar\ Demo.otf')  format('truetype');
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(238, 238, 28, 0.459);
+}
+
+header{
+background-image: linear-gradient(to top, #A6511F, #400601);
+width:100%;
+min-height: 150px;
+text-align: center;
+}
+
+header>h1{
+    padding-top: 50px;
+}
+
+nav{
+    padding-top: 33px;
+}
+
+nav>a{
+    text-decoration: none;
+    color: #D9BCA3;
+    margin-left: 43px;
+}
+
+nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+header>h1{
+    font-family:'chocolate', Helvetica, sans-serif ;
+    color:  rgba(238, 238, 28, 0.459);
+}
+
+main{
+    margin: auto;
+    background-color: white;
+    max-width: 1000px;
+    min-width: 350px;
+}
+
+article>h1{
+    color:orange;
+    text-align: center;
+    font-family: 'chocolate', Helvetica, sans-serif;
+    padding:20px 0px;
+}
+
+img{
+    width: 100%;
+    padding: 0px 10px;
+
+}
+
+aside{
+    background-color: goldenrod;
+    columns: 2;
+    margin: -5px 10px 0px 10px;
+    padding: 10px 20px;
+}
+
+aside>h2{
+    font-family: 'Roboto Mono', monospace;
+}
+
+aside >ul{
+    text-decoration: none;
+    list-style-type: '\00A0';
+    list-style-position: inside;
+}
+
+div.video{
+    position: relative;
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    padding-bottom: 57%;
+}
+
+div.video > iframe{
+position: absolute;
+top: 2%;
+    left: 2%;
+    width: 97%;
+    height: 96%;
+}

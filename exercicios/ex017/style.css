@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+background-color: rgb(130, 228, 130);
+}
+#principal{
+    background-color: aqua;
+    width: 380px;
+}
+.basico{
+
+}
+.intermediario{
+background-color: rgb(84, 94, 29);
+}
+.avançado{
+    background-color: rgb(130, 111, 148);
+}
+.aprendendohtml{
+
+}
+.aprendendocss{
+    
+}

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'gothic' ;
+    src: url('fonts/Cristone.ttf') format('truetype');
+}
+h1{
+    font-family: 'gothic', Helvetica, sans-serif;
+    
+}

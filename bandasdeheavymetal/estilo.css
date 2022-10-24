@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@900&display=swap');
+
+@font-face {
+    font-family: 'metal';
+    src: url('fontes/BLACK\ METAL.otf')
+    format('opentype');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(to top, black 60%, white);
+    min-height: 100px;
+    text-align: center;
+}
+
+header>h1{
+    font-family:'metal', Helvetica, sans-serif;
+    padding-top: 30px;
+    color: white;
+}
+
+nav{
+    margin-top:39px;
+    margin-left: 49px;
+}
+
+nav>a{
+    color: white;
+    text-decoration:none;
+margin-left:30px;
+}
+
+nav>a:hover{
+    text-decoration: underline;
+}
+
+body{
+    background-color: #BFAEA8;
+}
+
+article{
+    box-shadow:1px 1px 7px  black;
+    min-width:320px;
+    max-width:1000px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+}
+
+article>h1{
+margin:10px 0px;
+}
+
+article>h2{
+    margin:15px 0px;
+    background-image: linear-gradient(to right, white,black 90%);
+}
+
+article>h3{
+margin: 10px 0px;
+background-image: linear-gradient(to right, white,black 20%);
+}
+
+h4{
+    font-family: 'Tajawal', sans-serif;
+    height: 30px;
+    width: 100%;
+    background-image: linear-gradient(to right, white,black 90%);
+    font-size:20px;
+    margin:20px 0px 10px -2px;
+}
+
+article>p{
+    font-size:18px;
+    font-weight: lighter;
+}
+
+div.video{
+    position: relative;
+    background-color: black;
+    margin: 0px 1px 30px -2px;
+    padding: 10px;
+    padding-bottom: 57%;
+}
+
+div.video3{
+    position: relative;
+    background-color: black;
+    margin: 0px 1px 30px -2px;
+    padding: 10px;
+    padding-bottom: 57%;
+}
+
+div.video3 >iframe{
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    height: 97%;
+    width: 97%;
+    }
+
+div.video >iframe{
+position: absolute;
+top: 2%;
+left: 1%;
+height: 97%;
+width: 97%;
+}
+
+img{
+margin: 10px 0px;
+    width: 100%;
+}
+
+footer{
+ min-height: 50px;
+    background-color: grey;
+    text-align: center;
+}
+
+footer>p{
+    padding-top: 15px;
+}
+footer>p>a{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+footer>p>a:after{
+    content: '\1F517';
+}
+
+a.twitter:hover{
+    background-color: rgba(9, 171, 247, 0.514);
+    padding: 1px;
+    text-decoration: underline;
+}
+
+a.facebook:hover{
+    text-decoration: underline;
+    background-color: blue;
+    padding:1px;
+}
